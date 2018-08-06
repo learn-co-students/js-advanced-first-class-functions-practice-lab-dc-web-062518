@@ -32,8 +32,6 @@ function driversByName(array) {
 
 function totalRevenue(array) {
   function reducer (agg, element) {return agg + element.revenue}
-  console.log(array)
-  console.log(array.reduce(reducer, 0))
   return array.reduce(reducer, 0)
 }
 
